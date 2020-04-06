@@ -1,0 +1,26 @@
+a)Update the count of Person 2 inside readers Array in Javascript;
+
+
+   lib[0].readers[1].count=1000;
+   
+b)Insert a new key called email and assign a value email1@gmail.com and      email2@gmail.com respectively in both authorDetails object;
+
+     lib[0].authorDetails.email1="vithun@gmail.com";
+       lib[1].authorDetails.email2="krishna@gmail.com";
+	   
+c) Insert a new reader in the readers array for Nodejs.
+
+    lib[1].readers[0]={
+            name:"vithun",
+             age:"23"
+      };
+	  
+d)Create a New Object in the library for a new Book called SQL.
+
+    lib[2]={
+	         title:"SQL"
+			  };
+			  
+e)Find the datatype of author age in Nodejs Object
+
+    console.log(typeof lib[1].authorDetails.age);
